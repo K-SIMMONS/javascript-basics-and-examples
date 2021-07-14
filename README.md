@@ -1,1 +1,1 @@
-# javascript-basics-and-examples
+# Here are some basic javascript vocabulary terms and examples. I will add more as I continue to explore the language 

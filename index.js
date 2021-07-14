@@ -3,10 +3,23 @@
 //Here we have the console log. The console log will display your values in the console portion of the inspect element tool on your browser
 //You can use this to keep track of data and place markers as you go
 //Writing within single(') or double("") will read whatever insert as Text
+
 console.log('Hello Kurt!');
 
 
+//Here we have our first example of a variable
+//Variables are used to temporarily store data and values
 
+let name = 'Kurt';
+console.log(name);
+
+//Here is a basic example of a constant or const.
+//Constants can not be changed once defined or an error will occur. Think of this as an ID in a way, these should be unique and only listed once
+//Since we set a const for the interestRate value of 0.3, when we try to change it on the next line below we will receive and error 
+
+const interestRate = 0.3;
+//interestRate = 1;   <----- Commented out to get rid of error, but make sure you understand why this will display an error
+console.log(interestRate);
 
 
 

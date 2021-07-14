@@ -1,4 +1,5 @@
 //This is how you comment in javascript. it's just two forward slashes
+//Javascript is a dynamic language meaning you can changed variables at run time
 
 //Here we have the console log. The console log will display your values in the console portion of the inspect element tool on your browser
 //You can use this to keep track of data and place markers as you go
@@ -35,8 +36,15 @@ let firstName = undefined; //This is Undefined
 
 let lastName = null; //This is Null, it is used to CLEAR the value of a variable 
 
+//Now, we are going to go over Reference types. These include: Objects, Arrays, and Functions
+//First, We'll start with Object
 
+let person = {    //Think of objects as a div or a container. We can put multiple variables inside of an object, then simply call the object to display those said variables!
+    name: 'John',
+    age: 50
+};
 
+console.log(person);
 
 
 

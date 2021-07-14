@@ -22,11 +22,18 @@ const interestRate = 0.3;
 console.log(interestRate);
 
 
+//Here we will go over some basic types of variables. There are 2 different types, Primitive and Reference types
+//First, we'll go over Primitive types which include: Strings, Numbers, Boolean, Undefined, and Null
 
+let myName = 'Kurt'; //This is a String Literal
 
+let age = 22; //This is a Number Literal
 
+let isApproved = false; //This is a Boolean Literal
 
+let firstName = undefined; //This is Undefined
 
+let lastName = null; //This is Null, it is used to CLEAR the value of a variable 
 
 
 

@@ -46,8 +46,18 @@ let person = {    //Think of objects as a div or a container. We can put multipl
 
 console.log(person);
 
+//Array:
 
+let firstArray = ['red' , 'blue'];      // Arrays are used to store variables in a list style format.
+                                            // Array literals are called by using the square brackets.
+                                            // The order you list the items in an array matter. Each item in the array has a numeric value with the first item starting at 0 and so on so fourth
+console.log(firstArray);
 
+//An array but using the index to call an item:
+
+let secondArray = ['red' , 'blue' , 'green' , 'black' , 'white' , 50];
+
+console.log(secondArray[4]);            // When we view the console log we will see that the "4" index value contains the item 'white'.
 
 
 
